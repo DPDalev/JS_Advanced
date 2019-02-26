@@ -1,0 +1,16 @@
+#gradient-box {
+    width: 1345px;
+    border: 2px solid lightgrey;
+}
+#gradient-box:hover {
+    border: 2px solid black;
+}
+#gradient {
+    height: 200px;
+    color: white;
+    text-shadow: 1px 1px 10px black;
+    text-align: center;
+    line-height: 200px;
+    background: linear-gradient(to right, black, white);
+    cursor: hand;
+}
